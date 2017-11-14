@@ -13,7 +13,7 @@ public class Test {
             System.out.println(x + ":theadId:" + Thread.currentThread().getId());
         });
         System.out.println("********************************************");
-        Arrays.asList(1,2,3).parallelStream().forEach(x->{
+        Arrays.asList(1,2,3,4).parallelStream().forEach(x->{
             System.out.println(x + ":theadId:" + Thread.currentThread().getId());
         });
     }
